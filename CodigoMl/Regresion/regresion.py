@@ -32,8 +32,9 @@ def graph(formula, x_range):
 	plt.plot(x,y)
 
 #PLotting the prediction line
-graph('regr.coef_*x + regr.intercept_', range(500,2000)) #esto para visualizar
+graph('regr.coef_*x + regr.intercept_', range(1000,2500)) #esto para visualizar
 plt.scatter(size, house_price, color='black')
 plt.ylabel('house price')
 plt.xlabel('size of house')
-plt.show()
+#plt.show()
+plt.savefig("Regresion.pdf")

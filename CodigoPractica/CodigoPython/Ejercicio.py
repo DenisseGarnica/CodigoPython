@@ -4,6 +4,8 @@ from validador import validate_email
 
 
 x=18
+
+
 #Clase Usuario
 class Usuario:
  def __init__(self, nombre, email, edad):
